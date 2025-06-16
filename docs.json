@@ -106,6 +106,13 @@
               "settings/quick_replies",
               "settings/custom_tabs"
             ]
+          },
+          {
+            "group": "My Account",
+            "pages": [
+              "my-account/account",
+              "my-account/password"
+            ]
           }
         ]
       },
