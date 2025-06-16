@@ -44,6 +44,17 @@
               "train-your-ai-chatbot/unanswered_questions",
               "train-your-ai-chatbot/other_sources"
             ]
+          },
+          {
+            "group": "Install Your Chatbot",
+            "pages": [
+              "install-your-chatbot/install_website_chatbot",
+               "install-your-chatbot/install_website_chatbot_on_custom_build_website",
+               "install-your-chatbot/install_website_on_wordpress",
+               "install-your-chatbot/install_website_on_wix",
+              "install-your-chatbot/instal_website_on_squarespace",
+              "install-your-chatbot/widget_installation"
+            ]
           }
         ]
       },
