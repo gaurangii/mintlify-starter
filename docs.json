@@ -11,7 +11,76 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "How Botpenguin Works?",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "gaurangi"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+       {
+        "tab": "Plattform Guidelines & Training",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "gaurangi"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+       {
+        "tab": "Plattform Updates & Info",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "index",
+              "gaurangi"
+            ]
+          },
+          {
+            "group": "Essentials",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/settings",
+              "essentials/navigation",
+              "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+       {
+        "tab": "API References",
         "groups": [
           {
             "group": "Get Started",
@@ -34,7 +103,7 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Partner Documentation",
         "groups": [
           {
             "group": "API Documentation",
