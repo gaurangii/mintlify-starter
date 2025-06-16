@@ -88,6 +88,24 @@
               "inbox/creating_segments",
               "inbox/using_tags"
             ]
+          },
+          {
+            "group": "Developer",
+            "pages": [
+              "developer/3_party_app_api",
+              "developer/api_access_token",
+              "developer/webhook"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "settings/custom_attribute",
+              "settings/tag",
+              "settings/custom_status",
+              "settings/quick_replies",
+              "settings/custom_tags"
+            ]
           }
         ]
       },
