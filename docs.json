@@ -69,6 +69,25 @@
               "automation/instagram_autoreplies",
               "automation/instagram_automation" 
             ]
+          },
+          {
+            "group": "3rd Party Apps Integrations",
+            "pages": [
+              "3-party-integration/chatgpt"
+            ]
+          },
+           {
+            "group": "Inbox",
+            "pages": [
+              "inbox/chats_window",
+              "inbox/order",
+              "inbox/contacts",
+              "inbox/groups",
+              "inbox/real_time_customer_interaction",
+              "inbox/importing_whatsapp_contacts",
+              "inbox/creating_segments",
+              "inbox/using_tags"
+            ]
           }
         ]
       },
