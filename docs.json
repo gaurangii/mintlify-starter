@@ -33,6 +33,17 @@
               "edit-your-chatflow/email_validation",
               "edit-your-chatflow/whatsapp_payment_component"
             ]
+          },
+          {
+            "group": "Train Your AI Chatbot",
+            "pages": [
+              "train-your-ai-chatbot/website",
+               "train-your-ai-chatbot/file_upload",
+               "train-your-ai-chatbot/google_sheets",
+               "train-your-ai-chatbot/faqs",
+              "train-your-ai-chatbot/unanswered_questions",
+              "train-your-ai-chatbot/other_sources"
+            ]
           }
         ]
       },
