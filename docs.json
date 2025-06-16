@@ -10,14 +10,20 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
-      {
+       {
         "tab": "How Botpenguin Works?",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Create New Chatbot",
             "pages": [
-              "index",
-              "gaurangi"
+              "how-botpenguin-works/website_chatbot",
+              "how-botpenguin-works/landing_page_chatbot",
+              "how-botpenguin-works/whatsApp_chatbot",
+              "how-botpenguin-works/instagram_chatbot",
+              "how-botpenguin-works/facebook_chatbot",
+              "how-botpenguin-works/telegram_chatbot",
+              "how-botpenguin-works/microsoft_teams_bot",
+              "how-botpenguin-works/make_your_live_chatbot"
             ]
           },
           {
