@@ -80,7 +80,7 @@
             "group": "Inbox",
             "pages": [
               "inbox/chats_window",
-              "inbox/order",
+              "inbox/orders",
               "inbox/contacts",
               "inbox/groups",
               "inbox/real_time_customer_interaction",
@@ -101,10 +101,10 @@
             "group": "Settings",
             "pages": [
               "settings/custom_attribute",
-              "settings/tag",
+              "settings/tags",
               "settings/custom_status",
               "settings/quick_replies",
-              "settings/custom_tags"
+              "settings/custom_tabs"
             ]
           }
         ]
