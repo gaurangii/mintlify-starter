@@ -23,18 +23,15 @@
               "how-botpenguin-works/facebook_chatbot",
               "how-botpenguin-works/telegram_chatbot",
               "how-botpenguin-works/microsoft_teams_bot",
-              "how-botpenguin-works/make_your_live_chatbot"
+              "how-botpenguin-works/make_your_live_chat_chatbot"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Edit Your Chatflow",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "edit-your-chatflow/multiple_flows",
+              "edit-your-chatflow/email_validation",
+              "edit-your-chatflow/whatsapp_payment_component"
             ]
           }
         ]
