@@ -157,6 +157,15 @@
               "whatsapp-bot-creation/assign_system_user",
               "whatsapp-bot-creation/getting_necessary_details"
             ]
+          },
+           {
+            "group": "WhatsApp And Meta",
+            "pages": [
+              "whatsapp-meta/bot_creation_with_automation",
+              "whatsapp-meta/migration_of_account",
+              "whatsapp-meta/reconnect_bot",
+              "whatsapp-meta/recover_restricted_account"
+            ]
           }
         ]
       },
