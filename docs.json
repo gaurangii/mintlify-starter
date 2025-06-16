@@ -55,6 +55,20 @@
               "install-your-chatbot/instal_website_on_squarespace",
               "install-your-chatbot/widget_installation"
             ]
+          },
+          {
+            "group": "Automation",
+            "pages": [
+              "automation/widget",
+              "automation/whatsapp_template_setup",
+              "automation/whatsapp_catelog_setup",
+              "automation/whatsapp_flows_setup",
+              "automation/whatsapp_broadcast_setup",
+              "automation/whatsapp_drip_campaign_setup",
+              "automation/facebook_autoreply_feature",
+              "automation/instagram_autoreplies",
+              "automation/instagram_automation" 
+            ]
           }
         ]
       },
