@@ -147,14 +147,15 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "WhatsApp Bot Creation with Manual Onboarding",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "whatsapp-bot-creation/prerequisites",
+              "whatsapp-bot-creation/create_meta_app",
+              "whatsapp-bot-creation/register_verify_number",
+              "whatsapp-bot-creation/subscribe_wa_webhook",
+              "whatsapp-bot-creation/update_payment_method",
+              "whatsapp-bot-creation/assign_system_user",
+              "whatsapp-bot-creation/getting_necessary_details"
             ]
           }
         ]
