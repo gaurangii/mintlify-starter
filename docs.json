@@ -231,14 +231,11 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "WhatsApp Cloud API",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "whatsapp-cloud-api/get_template_list",
+              "whatsapp-cloud-api/whatsapp_template",
+              "whatsapp-cloud-api/post_send_template_message"
             ]
           }
         ]
