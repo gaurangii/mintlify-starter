@@ -30,7 +30,7 @@ Copy
 ```
 // Chatbot Script Structure
 
-<script id="BotPenguin-messenger-widget" src="https://cdn.botpenguin.com/botpenguin.js" defer>BotId,CustomerId</script>
+
 
 // The first value after defer> is the BotId & second value is the CustomerId.
 ```
@@ -71,7 +71,7 @@ As soon as any user opens up the Bot, It creates one UUId; pass the same along w
 | email        | String                                        | Email of the lead                                                                                             |
 | phone        | String                                        | Phone number of the lead                                                                                      |
 | dialCode     | String                                        | Dial Code including "+" sign                                                                                 |
-| notes        | Array\<{title: string, description: string}\> | Additional notes for the chat                                                                                 |
+| notes        | String | Additional notes for the chat                                                                                 |
 | status       | String                                        | Valid status for the chat. Available values: 'OPEN', 'INPROGRESS', 'REVIEW', 'ONHOLD', 'DEPENDANCY', 'CLOSED' |
 | picture      | String                                        | A valid image HTTP URL                                                                                        |
 | tags         | Array\<String\>                               | Additional tags for the chat                                                                                  |
