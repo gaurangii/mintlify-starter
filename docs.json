@@ -13,6 +13,12 @@
        {
         "tab": "How Botpenguin Works?",
         "groups": [
+           {
+            "group": "Onboarding",
+            "pages": [
+              "onboarding/how_to_get_started"
+            ]
+          },
           {
             "group": "Create New Chatbot",
             "pages": [
@@ -30,8 +36,17 @@
             "group": "Edit Your Chatflow",
             "pages": [
               "edit-your-chatflow/multiple_flows",
+              "edit-your-chatflow/request_info",
+              "edit-your-chatflow/send_info",
+              "edit-your-chatflow/trigger_action",
               "edit-your-chatflow/email_validation",
               "edit-your-chatflow/whatsapp_payment_component"
+            ]
+          },
+          {
+            "group": "Pre-Built Chatbot Templates",
+            "pages": [
+              "prebuilt-chat-comp/prebuilt_chat_compo"
             ]
           },
           {
