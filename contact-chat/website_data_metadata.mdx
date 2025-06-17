@@ -3,7 +3,7 @@ title: "Website Contacts & Meta Data"
 description: "This section contains the Leads and Chat API references"
 ---
 
-## **Get the essentials first\!**
+## **Get the essentials first!**
 
 To use the BotPenguin APIs, You need to insure that you have following details with you.
 
@@ -21,7 +21,7 @@ https://page.botpenguin.com/BotId/CustomerId
 // The first value after .com is the BotId and second value is the CustomerId.
 ```
 
-For Chatbot ScripT
+For Chatbot Script
 
 ```html
 // Chatbot Script Structure
@@ -57,25 +57,26 @@ As soon as any user opens up the Bot, It creates one UUId; pass the same along w
 
 #### **Request Body**
 
-| **Name**     | <br />**Type**                                | **Description**                                                                                               |
+| **Name**     | **Type**                                      | **Description**                                                                                               |
 | ------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| uuid\*       | <br />String                                  | Unique ID of a chat user                                                                                      |
-| botId\*      | <br />String                                  | Unique ID of the bot                                                                                          |
-| customerId\* | <br />String                                  | Unique ID of the customer account                                                                             |
-| agentId      | Boolean                                       | <br />Unique ID of the agent assigned                                                                         |
-| name         | <br />String                                  | Name of the lead                                                                                              |
-| email        | <br />String                                  | <br />Email of the lead                                                                                       |
-| phone        | <br />String                                  | Phone number of the lead                                                                                      |
-| dialCode     | <br />String                                  | Dial Code including "\+" sign                                                                                 |
-| notes        | Array\<{title: string, description: string}\> | <br />Additional notes for the chat                                                                           |
-| status       | <br />String                                  | Valid status for the chat. Available values: 'OPEN', 'INPROGRESS', 'REVIEW', 'ONHOLD', 'DEPENDANCY', 'CLOSED' |
-| picture      | <br />String                                  | <br />A valid image HTTP URL                                                                                  |
+| uuid\*       | String                                        | Unique ID of a chat user                                                                                      |
+| botId\*      | String                                        | Unique ID of the bot                                                                                          |
+| customerId\* | String                                        | Unique ID of the customer account                                                                             |
+| agentId      | Boolean                                       | Unique ID of the agent assigned                                                                               |
+| name         | String                                        | Name of the lead                                                                                              |
+| email        | String                                        | Email of the lead                                                                                             |
+| phone        | String                                        | Phone number of the lead                                                                                      |
+| dialCode     | String                                        | Dial Code including "\+" sign                                                                                 |
+| notes        | Array\<{title: string, description: string}\> | Additional notes for the chat                                                                                 |
+| status       | String                                        | Valid status for the chat. Available values: 'OPEN', 'INPROGRESS', 'REVIEW', 'ONHOLD', 'DEPENDANCY', 'CLOSED' |
+| picture      | String                                        | A valid image HTTP URL                                                                                        |
 | tags         | Array\<String\>                               | Additional tags for the chat                                                                                  |
 | attributes   | Array\<{title: string, description: string}\> | Custom attributes for the chat                                                                                |
 
 <CodeGroup>
 
-```200: OK API successfully processed
+```
+200: OK API successfully processed
 {
     "success": true,
     "message": "ok",
@@ -83,15 +84,15 @@ As soon as any user opens up the Bot, It creates one UUId; pass the same along w
 }
 ```
 
-
-```400: Bad Request Bad request/parameters
+```
+400: Bad Request Bad request/parameters
 {
     // Response
 }
 ```
 
-
-```401: Unauthorized Unauthorized request
+```
+401: Unauthorized Unauthorized request
 {
     // Response
 }
@@ -126,7 +127,8 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
 
 <CodeGroup>
 
-```200: OK API successfully processed
+```
+200: OK API successfully processed
 {
     "success": true,
     "message": "ok",
@@ -184,15 +186,15 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
 }
 ```
 
-
-```400: Bad Request Bad Requests/Parameters
+```
+400: Bad Request Bad Requests/Parameters
 {
     // Response
 }
 ```
 
-
-```401: Unauthorized Unauthorized request
+```
+401: Unauthorized Unauthorized request
 {
     // Response
 }
