@@ -3,7 +3,7 @@ title: "Website Contacts & Meta Data"
 description: "This section contains the Leads and Chat API references"
 ---
 
-## **Get the essentials first!**
+## **Get the essentials first\!**
 
 To use the BotPenguin APIs, You need to insure that you have following details with you.
 
@@ -13,8 +13,6 @@ B. **Bot ID & User ID:** One can get the Bot ID and User ID from your Bot Script
 
 For Chatbot page URL
 
-Copy
-
 ```
 // Chatbot Page URL Structure
 
@@ -23,14 +21,12 @@ https://page.botpenguin.com/BotId/CustomerId
 // The first value after .com is the BotId and second value is the CustomerId.
 ```
 
-For Chatbot Script
+For Chatbot ScripT
 
-Copy
-
-```
+```html
 // Chatbot Script Structure
 
-
+<script id="BotPenguin-messenger-widget" src="https://cdn.botpenguin.com/botpenguin.js" defer>BotId,CustomerId</script>
 
 // The first value after defer> is the BotId & second value is the CustomerId.
 ```
@@ -57,24 +53,51 @@ As soon as any user opens up the Bot, It creates one UUId; pass the same along w
 
 | **Name**     | **Type** | **Description** |
 | ------------ | -------- | --------------- |
-| x-bp-token* | String   | API Token       |
+| x-bp-token\* | String   | API Token       |
 
-**Request Body**
+#### **Request Body**
 
+| **Name**     | <br />**Type**                                | **Description**                                                                                               |
+| ------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| uuid\*       | <br />String                                  | Unique ID of a chat user                                                                                      |
+| botId\*      | <br />String                                  | Unique ID of the bot                                                                                          |
+| customerId\* | <br />String                                  | Unique ID of the customer account                                                                             |
+| agentId      | Boolean                                       | <br />Unique ID of the agent assigned                                                                         |
+| name         | <br />String                                  | Name of the lead                                                                                              |
+| email        | <br />String                                  | <br />Email of the lead                                                                                       |
+| phone        | <br />String                                  | Phone number of the lead                                                                                      |
+| dialCode     | <br />String                                  | Dial Code including "\+" sign                                                                                 |
+| notes        | Array\<{title: string, description: string}\> | <br />Additional notes for the chat                                                                           |
+| status       | <br />String                                  | Valid status for the chat. Available values: 'OPEN', 'INPROGRESS', 'REVIEW', 'ONHOLD', 'DEPENDANCY', 'CLOSED' |
+| picture      | <br />String                                  | <br />A valid image HTTP URL                                                                                  |
+| tags         | Array\<String\>                               | Additional tags for the chat                                                                                  |
+| attributes   | Array\<{title: string, description: string}\> | Custom attributes for the chat                                                                                |
 
-**200: OK API successfully processed**
+<CodeGroup>
 
-**400: Bad Request Bad request/parameters**
-
-**401: Unauthorized Unauthorized request**
-
-```
+```200: OK API successfully processed
 {
     "success": true,
     "message": "ok",
     "code": 200
 }
 ```
+
+
+```400: Bad Request Bad request/parameters
+{
+    // Response
+}
+```
+
+
+```401: Unauthorized Unauthorized request
+{
+    // Response
+}
+```
+
+</CodeGroup>
 
 ### **Get leads listing and Its meta data**
 
@@ -88,26 +111,22 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
 
 #### **Query Parameters**
 
-| **Name**     | **Type**     | **Description**                                                |
-| ------------ | ------------ | -------------------------------------------------------------- |
-| botId*      | String | Unique ID of the bot                                           |
-| customerId* | String | Unique ID of the customer account                              |
-| page*       | String | Page number                                                    |
-| type*       | String | "lead" to fetch only leads  "non-lead" to fetch non lead chats |
+| **Name**     | **Type** | **Description**                                                |
+| ------------ | -------- | -------------------------------------------------------------- |
+| botId\*      | String   | Unique ID of the bot                                           |
+| customerId\* | String   | Unique ID of the customer account                              |
+| page\*       | String   | Page number                                                    |
+| type\*       | String   | "lead" to fetch only leads  "non-lead" to fetch non lead chats |
 
 **Headers**
 
 | **Name**      | **Type** | **Description** |
-| ------------- | -------------- | --------------- |
-| x-bot-token* | String   | API Token       |
+| ------------- | -------- | --------------- |
+| x-bot-token\* | String   | API Token       |
 
-**200: OK API successfully processed**
+<CodeGroup>
 
-**400: Bad Request Bad Requests/Parameters**
-
-**401: Unauthorized Unauthorized request**
-
-```
+```200: OK API successfully processed
 {
     "success": true,
     "message": "ok",
@@ -164,6 +183,22 @@ To get the listing of the leads and its meta data, Hit the below API with mandat
     "code": 200
 }
 ```
+
+
+```400: Bad Request Bad Requests/Parameters
+{
+    // Response
+}
+```
+
+
+```401: Unauthorized Unauthorized request
+{
+    // Response
+}
+```
+
+</CodeGroup>
 
 ### **❓ Got any questions?**
 
