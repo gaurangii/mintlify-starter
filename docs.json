@@ -166,7 +166,20 @@
               "whatsapp-meta/reconnect_bot",
               "whatsapp-meta/recover_restricted_account"
             ]
+          },
+          {
+            "group": "Must Know How Of BotPenguin",
+            "pages": [
+              "must-know-how-of-botpenguin/manage_use_custom_attributes",
+              "must-know-how-of-botpenguin/call_external_api",
+              "must-know-how-of-botpenguin/managing_team_roles",
+              "must-know-how-of-botpenguin/unlocking_botpenguin_ai",
+              "must-know-how-of-botpenguin/support_agent_guide",
+              "must-know-how-of-botpenguin/whatsapp_notification",
+              "must-know-how-of-botpenguin/chatbot_user_authentication"
+            ]
           }
+          
         ]
       },
        {
