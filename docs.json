@@ -221,10 +221,13 @@
         "tab": "API References",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Contact & Chats APIs",
             "pages": [
-              "index",
-              "gaurangi"
+              "contact-chat/get_all_contact",
+              "contact-chat/getting_group_segment",
+              "contact-chat/add_whatsapp_contact",
+              "contact-chat/delete_whatsapp_contact",
+              "contact-chat/website_data_metadata"
             ]
           },
           {
