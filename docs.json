@@ -186,21 +186,33 @@
         "tab": "Plattform Updates & Info",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "What's New",
             "pages": [
-              "index",
-              "gaurangi"
+              "what-new/latest_updates"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Report A Bug!",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "report-bug/bug_submission"
+            ]
+          },
+          {
+            "group": "Feature Requests",
+            "pages": [
+              "feature-request/request_tracker"
+            ]
+          },
+          {
+            "group": "BotPenguin Roadmap",
+            "pages": [
+              "botpenguin-roadmap/development_timeline"
+            ]
+          },
+          {
+            "group": "Connect With Us",
+            "pages": [
+              "connect-with-us/community_hub"
             ]
           }
         ]
