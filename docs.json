@@ -98,6 +98,45 @@
             ]
           },
           {
+            "group": "WhatsApp Chatbot Settings",
+            "pages": [
+              "whatsapp-chatbot-setting/general",
+              "whatsapp-chatbot-setting/trigger",
+              "whatsapp-chatbot-setting/alert",
+              "whatsapp-chatbot-setting/apikey",
+              "whatsapp-chatbot-setting/whatsapp_profile",
+              "whatsapp-chatbot-setting/ai_setting"
+            ]
+          },
+          {
+            "group": "Telegram Chatbot Settings",
+            "pages": [
+              "telegram-chatbot-setting/general",
+              "telegram-chatbot-setting/telegram_profile",
+              "telegram-chatbot-setting/ai_setting"
+            ]
+          },
+          {
+            "group": "Instagram Chatbot Settings",
+            "pages": [
+              "instagram-chatbot-setting/general",
+              "istagram-chatbot-setting/ai_setting"
+            ]
+          },
+          {
+            "group": "Facebook Chatbot Settings",
+            "pages": [
+              "facebook-chatbot-setting/general",
+              "facebook-chatbot-setting/ai_setting"
+            ]
+          },
+          {
+            "group": "Configuring Chatbot Scenarios",
+            "pages": [
+              "configure-persona/config_chatbot_scenari"
+            ]
+          },
+          {
             "group": "3rd Party Apps Integrations",
             "pages": [
               "3-party-integration/chatgpt"
