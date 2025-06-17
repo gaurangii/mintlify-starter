@@ -61,21 +61,6 @@ As soon as any user opens up the Bot, It creates one UUId; pass the same along w
 
 **Request Body**
 
-| **Name**     | **Type**                                      | **Description**                                                                                               |
-| ------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| uuid*       | String                                        | Unique ID of a chat user                                                                                      |
-| botId*      | String                                        | Unique ID of the bot                                                                                          |
-| customerId* | String                                        | Unique ID of the customer account                                                                             |
-| agentId      | Boolean                                       | Unique ID of the agent assigned                                                                         |
-| name         | String                                        | Name of the lead                                                                                              |
-| email        | String                                        | Email of the lead                                                                                             |
-| phone        | String                                        | Phone number of the lead                                                                                      |
-| dialCode     | String                                        | Dial Code including "+" sign                                                                                 |
-| notes        | String | Additional notes for the chat                                                                                 |
-| status       | String                                        | Valid status for the chat. Available values: 'OPEN', 'INPROGRESS', 'REVIEW', 'ONHOLD', 'DEPENDANCY', 'CLOSED' |
-| picture      | String                                        | A valid image HTTP URL                                                                                        |
-| tags         | Array\<String\>                               | Additional tags for the chat                                                                                  |
-| attributes   | Array\<{key: string, value: string}\>         | Custom attributes for the chat                                                                          |
 
 **200: OK API successfully processed**
 
