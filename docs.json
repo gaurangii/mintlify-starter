@@ -86,6 +86,18 @@
             ]
           },
           {
+            "group": "Website Bot Settings",
+            "pages": [
+              "website_bot_setting/design",
+              "website_bot_setting/general",
+              "website_bot_setting/alert",
+              "website_bot_setting/trigger",
+              "website_bot_setting/user_access",
+              "website_bot_setting/chat_window",
+              "website_bot_setting/ai_setting"
+            ]
+          },
+          {
             "group": "3rd Party Apps Integrations",
             "pages": [
               "3-party-integration/chatgpt"
