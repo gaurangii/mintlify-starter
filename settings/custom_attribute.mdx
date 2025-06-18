@@ -34,10 +34,33 @@ Follow these steps to set up a new custom attribute in BotPenguin:
 
 - **Attribute Key:** Enter a short, unique key name for the attribute. Use only lowercase letters with no spaces or special characters (for example, `city` or `email`). This key is how BotPenguin stores the data internally.
 - **Attribute Name:** Enter a friendly display name (e.g. `City` or `Email Address`). This is what you or other team members will see in the interface.
-- **\
-  Optional – Link to Flow Question:** (If you want the bot to save a user’s answer automatically) select the **Bot**, **Flow**, and **Question** that this attribute should be linked to. For example, if you have a flow that asks “What is your city?”, select that question. This tells BotPenguin to save the user’s answer to your question into this attribute. Fill in these details carefully. Keeping the key simple (lowercase, no spaces) ensures the attribute works correctly.
+- **Optional – Link to Flow Question:** (If you want the bot to save a user’s answer automatically) select the **Bot**, **Flow**, and **Question** that this attribute should be linked to. For example, if you have a flow that asks “What is your city?”, select that question. This tells BotPenguin to save the user’s answer to your question into this attribute. Fill in these details carefully. Keeping the key simple (lowercase, no spaces) ensures the attribute works correctly.
   6.  Click on "Add Attribute" to add the attribute.
 
 And that's it, now you can use this custom attribute anyplace you desire\!
+
+### **FAQ's:**
+
+<AccordionGroup>
+  <Accordion title="What are custom attributes?">
+    Custom attributes are extra pieces of information you can collect and save about each user, like their city, favorite product, or subscription plan.
+  </Accordion>
+  <Accordion title="Why should I use the custom attributes?">
+    They help you personalize messages, filter contacts, and automate chatbot conversations based on user preferences or data.
+  </Accordion>
+  <Accordion title="Can I dynamically update custom attribute during a conversation?">
+    Yes. You can capture and update values through chat inputs using Question Blocks or automation rules, ensuring the attribute always reflects the latest information.
+  </Accordion>
+  <Accordion title="Difference between custom attributes and tags?">
+    Tags categorize users into groups (like labels), while custom attributes hold specific data (like age, plan type, or company name) that can be used in logic or personalization.
+  </Accordion>
+  <Accordion title="Can I set default value for custom attributes if the user has not provided any?">
+    Yes. You can configure fallback values using the `{{customAttribute || defaultValue}}` syntax in messages or set them via automation flows.
+  </Accordion>
+  <Accordion title="Is it possible to use custom attributes for lead segmentation?">
+    Absolutely. You can segment users based on attribute values—like filtering users by “Plan Type = Premium” or “Location = New York”—and send targeted messages accordingly.
+  </Accordion>
+</AccordionGroup>
+
 
 If everything is correct and you are still unable to move forward, write to us at [support@botpenguin.com](mailto:support@botpenguin.com). We will respond back within 48 business hours.

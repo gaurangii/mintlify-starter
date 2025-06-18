@@ -1,3 +1,8 @@
+---
+title: "Webhooks"
+description: "This is a description of the webhooks section under the "Developer" tab in BotPenguin."
+---
+
 ## **What are Webhooks?**
 
 A **webhook** is a way for one app to automatically send data to another app when something happens. Instead of checking for updates all the time, the receiving app gives a special URL, and the sending app sends information to that URL as soon as the event occurs. This helps automate tasks, keep data updated in real-time, and connect different systems without manual work.
@@ -17,7 +22,7 @@ The following are the benefits of using webhooks on BotPenguin:
 
 ### **How to use Webhooks on BotPenguin:**
 
-1. Log into your BotPenguin account, and then go **Developer **section under the More section.
+1. Log into your BotPenguin account, and then go \*\*Developer \*\*section under the More section.
 2. Click on the third tab to access the "Webhooks" section.
 3. \
    Here, the user has the options to configure webhooks for 3 types, WhatsApp, Instagram and Account Level.
@@ -34,20 +39,20 @@ The following are the benefits of using webhooks on BotPenguin:
 
 1. There are many webhooks that have been created for WhatsApp. Some of them are as follows:
 
-| Failed Message                  | <br />Tells when a message could not be delivered                                                                                          |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Account Alerts                  | Tells when your account does not meet our notability requirements. You can edit the display name and submit another request after 30 days. |
-| Account Review Update           | Tells when account review request gets approved.                                                                                           |
-| Account Update                  | Update on the business verification of the WhatsApp account.                                                                               |
-| Business Capability Update      | Updates on the max daily limits per day                                                                                                    |
-| Business Status Update          | Updates the status of the business                                                                                                         |
-| Template Quality Update  <br /> | Updates on the template quality.                                                                                                           |
-| Template Status Update          | Tells of the approval status of the template.                                                                                              |
-| Messages                        | <br />Tells of the messages that are recieved.                                                                                             |
-| Phone Number Name Update        | Updates you when the name related to a phone number is updated                                                                             |
-| Phone Number Quality Update     | Tells of the plan quality of a new user.                                                                                                   |
-| Security                        | <br />Tells information regarding the security of the PIN's.                                                                               |
-| Template Category Update        | Updates the template category.                                                                                                             |
+| Failed Message              | <br />Tells when a message could not be delivered                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Account Alerts              | Tells when your account does not meet our notability requirements. You can edit the display name and submit another request after 30 days. |
+| Account Review Update       | Tells when account review request gets approved.                                                                                           |
+| Account Update              | Update on the business verification of the WhatsApp account.                                                                               |
+| Business Capability Update  | Updates on the max daily limits per day                                                                                                    |
+| Business Status Update      | Updates the status of the business                                                                                                         |
+| Template Quality Update     | Updates on the template quality.                                                                                                           |
+| Template Status Update      | Tells of the approval status of the template.                                                                                              |
+| Messages                    | <br />Tells of the messages that are recieved.                                                                                             |
+| Phone Number Name Update    | Updates you when the name related to a phone number is updated                                                                             |
+| Phone Number Quality Update | Tells of the plan quality of a new user.                                                                                                   |
+| Security                    | <br />Tells information regarding the security of the PIN's.                                                                               |
+| Template Category Update    | Updates the template category.                                                                                                             |
 
 2. \
    To edit any webhook, click on the "Edit Webhook Subscription" button.
@@ -68,5 +73,34 @@ The following are the benefits of using webhooks on BotPenguin:
 | Conversation limit exhausted | Alerts the customer when their WhatsApp conversation limit is reached.                                                                                                                                   |
 | Plan expired                 | Sends a notification when the customer's subscription plan has expired.                                                                                                                                  |
 | Account freeze               | Notifies the customer when their account is temporarily frozen due to non-payment or policy violations.                                                                                                  |
+
+### **FAQ's**
+
+These are the commonly asked questions regarding Webhooks:
+
+<AccordionGroup>
+  <Accordion title="What are webhooks in BotPenguin?">
+    Webhooks are automated callbacks that notify your system in real-time when specific events occur on BotPenguin, such as message delivery failures or subscription changes.
+  </Accordion>
+  <Accordion title="Which platform do BotPenguin webhooks support?">
+    Webhooks are supported for WhatsApp, Instagram, and application-level events within the BotPenguin ecosystem.
+  </Accordion>
+  <Accordion title="What kinds of events can trigger a webhook?">
+    Events include failed message delivery, auto-reply execution, message limit exhaustion, conversation usage updates, subscription expiry, and account freezes.
+  </Accordion>
+  <Accordion title="Are webhooks real time?">
+    Yes. BotPenguin webhooks are designed to send event notifications immediately as they occur.
+  </Accordion>
+  <Accordion title="What format does the webhook payload use">
+    Webhook payloads are sent in JSON format, containing structured data about the triggered event.
+  </Accordion>
+  <Accordion title="How can I test if my webhook is working?">
+    BotPenguin provides testing options within the webhook configuration section, allowing you to simulate event triggers and validate your endpoint setup.
+  </Accordion>
+  <Accordion title="What should I do if my webhook endpoint fails?">
+    Ensure your endpoint URL is active and accessible. BotPenguin may retry failed deliveries, but persistent failures will require you to debug and update your configuration.
+  </Accordion>
+</AccordionGroup>
+
 
 If everything is correct and you are still unable to move forward, write to us at [support@botpenguin.com](mailto:support@botpenguin.com). We will respond back within 48 business hours.
