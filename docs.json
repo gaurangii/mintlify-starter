@@ -238,6 +238,12 @@
             ]
           },
           {
+            "group": "Teams",
+            "pages": [
+              "teams/dept"
+            ]
+          },
+          {
             "group": "Developer",
             "pages": [
               "developer/3_party_app_api",
