@@ -240,7 +240,12 @@
           {
             "group": "Teams",
             "pages": [
-              "teams/dept"
+              "teams/dept",
+              "teams/business_huor",
+              "teams/team",
+              "teams/role",
+              "teams/using_team"
+              
             ]
           },
           {
