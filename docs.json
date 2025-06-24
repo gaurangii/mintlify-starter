@@ -120,7 +120,7 @@
             "group": "Instagram Chatbot Settings",
             "pages": [
               "instagram-chatbot-setting/general",
-              "istagram-chatbot-setting/ai_setting"
+              "instagram-chatbot-setting/ai_setting"
             ]
           },
           {
@@ -235,6 +235,12 @@
               "inbox/importing_whatsapp_contacts",
               "inbox/creating_segments",
               "inbox/using_tags"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "analytics/use_analytics"
             ]
           },
           {
