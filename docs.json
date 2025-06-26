@@ -103,7 +103,7 @@
               "whatsapp-chatbot-setting/general",
               "whatsapp-chatbot-setting/trigger",
               "whatsapp-chatbot-setting/alert",
-              "whatsapp-chatbot-setting/apikey",
+              "whatsapp-chatbot-setting/api_key",
               "whatsapp-chatbot-setting/whatsapp_profile",
               "whatsapp-chatbot-setting/ai_setting"
             ]
