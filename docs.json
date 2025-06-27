@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
        {
-        "tab": "How cube6 Works?",
+        "tab": "How botpenguin Works?",
         "groups": [
            {
             "group": "Onboarding",
@@ -22,14 +22,14 @@
           {
             "group": "Create New Chatbot",
             "pages": [
-              "how-cube6-works/website_chatbot",
-              "how-cube6-works/landing_page_chatbot",
-              "how-cube6-works/whatsapp_chatbot",
-              "how-cube6-works/instagram_chatbot",
-              "how-cube6-works/facebook_chatbot",
-              "how-cube6-works/telegram_chatbot",
-              "how-cube6-works/microsoft_teams_bot",
-              "how-cube6-works/make_your_live_chat_chatbot"
+              "how-botpenguin-works/website_chatbot",
+              "how-botpenguin-works/landing_page_chatbot",
+              "how-botpenguin-works/whatsapp_chatbot",
+              "how-botpenguin-works/instagram_chatbot",
+              "how-botpenguin-works/facebook_chatbot",
+              "how-botpenguin-works/telegram_chatbot",
+              "how-botpenguin-works/microsoft_teams_bot",
+              "how-botpenguin-works/make_your_live_chat_chatbot"
             ]
           },
           {
@@ -340,15 +340,15 @@
             ]
           },
           {
-            "group": "Must Know How Of cube6",
+            "group": "Must Know How Of botpenguin",
             "pages": [
-              "must-know-how-of-cube6/manage_use_custom_attributes",
-              "must-know-how-of-cube6/call_external_api",
-              "must-know-how-of-cube6/managing_team_roles",
-              "must-know-how-of-cube6/unlocking_cube6_ai",
-              "must-know-how-of-cube6/support_agent_guide",
-              "must-know-how-of-cube6/whatsapp_notification",
-              "must-know-how-of-cube6/chatbot_user_authentication"
+              "must-know-how-of-botpenguin/manage_use_custom_attributes",
+              "must-know-how-of-botpenguin/call_external_api",
+              "must-know-how-of-botpenguin/managing_team_roles",
+              "must-know-how-of-botpenguin/unlocking_botpenguin_ai",
+              "must-know-how-of-botpenguin/support_agent_guide",
+              "must-know-how-of-botpenguin/whatsapp_notification",
+              "must-know-how-of-botpenguin/chatbot_user_authentication"
             ]
           }
           
@@ -376,9 +376,9 @@
             ]
           },
           {
-            "group": "cube6 Roadmap",
+            "group": "botpenguin Roadmap",
             "pages": [
-              "cube6-roadmap/development_timeline"
+              "botpenguin-roadmap/development_timeline"
             ]
           },
           {
