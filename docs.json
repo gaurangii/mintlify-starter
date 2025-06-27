@@ -20,7 +20,7 @@
             ]
           },
           {
-            "group": "Create New Chatbot",
+            "group": "Create New",
             "pages": [
               "how-botpenguin-works/website_chatbot",
               "how-botpenguin-works/landing_page_chatbot",
