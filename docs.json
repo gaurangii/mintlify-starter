@@ -73,7 +73,7 @@
           },
           {
             "group": "Automation",
-            "pages": [
+            "pages": [ 
               "automation/widget",
               "automation/whatsapp_template_setup",
               "automation/whatsapp_catelog_setup",
