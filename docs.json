@@ -403,8 +403,8 @@
     }
   },
   "logo": {
-    "light": "/logo/Light_and_Dark_Convertalk.png",
-    "dark": "/logo/Light_and_Dark_Convertalk.png"
+    "light": "/logo/Light_Mode.png",
+    "dark": "/logo/Light_Mode.png"
   },
   "navbar": {
     "links": [
