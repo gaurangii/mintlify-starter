@@ -1,17 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "mintlify ",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  
   "navigation": {
     "tabs": [
        {
-        "tab": "How Voxloud Works?",
+        "tab": "How Convertalk Works?",
         "groups": [
            {
             "group": "Onboarding",
@@ -73,7 +73,7 @@
           },
           {
             "group": "Automation",
-            "pages": [ 
+            "pages": [
               "automation/widget",
               "automation/whatsapp_template_setup",
               "automation/whatsapp_catelog_setup",
@@ -140,9 +140,6 @@
             "group": "3rd Party Apps Integrations",
             "pages": [
               "3-party-integration/chatgpt",
-              "3-party-integration/acuity_scheduling",
-              "3-party-integration/microsoft_teams",
-              "3-party-integration/woocommerce",
               "3-party-integration/autopilot",
               "3-party-integration/firmaocrm",
               "3-party-integration/capsulecrm",
@@ -155,8 +152,6 @@
               "3-party-integration/googlesheet",
               "3-party-integration/googlecalendar",
               "3-party-integration/googletask",
-              "3-party-integration/googlegemini",
-              "3-party-integration/googletagmanager",
               "3-party-integration/helpshiftcrm",
               "3-party-integration/zendeskcrm",
               "3-party-integration/leadsquaredcrm",
@@ -177,7 +172,6 @@
               "3-party-integration/teamgatecrm",
               "3-party-integration/zohoprojects",
               "3-party-integration/zohocrm",
-              "3-party-integration/googledrive",
               "3-party-integration/agilecrm",
               "3-party-integration/pipedrive",
               "3-party-integration/dripcrm",
@@ -191,7 +185,6 @@
               "3-party-integration/nutshellcrm",
               "3-party-integration/ontraport",
               "3-party-integration/hubspot",
-              "3-party-integration/webhopper",
               "3-party-integration/engagebay",
               "3-party-integration/frontapp",
               "3-party-integration/coppercrm",
@@ -204,23 +197,15 @@
               "3-party-integration/salesforcecrm",
               "3-party-integration/chakracrm",
               "3-party-integration/simplybook",
-              "3-party-integration/gitbook",
               "3-party-integration/gohighlevel",
-              "3-party-integration/voxloud",
-              "3-party-integration/viasocket",
               "3-party-integration/twilio",
-              "3-party-integration/shopify",
-              "3-party-integration/razorpay",
-              "3-party-integration/pabbly",
               "3-party-integration/outlook",
               "3-party-integration/onpipeline",
               "3-party-integration/notion",
               "3-party-integration/moengage",
-              "3-party-integration/kylascrm",
               "3-party-integration/googleanalytics",
               "3-party-integration/firstpromotor",
               "3-party-integration/googlecontact",
-              "3-party-integration/zapier",
               "3-party-integration/makecom"
             ]
           },
@@ -415,40 +400,23 @@
      
     ],
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/Light_and_Dark_Convertalk.png",
+    "dark": "/logo/Light_and_Dark_Convertalk.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@voxloud.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://chat.voxloud.com"
     }
   },
   "footer": {
